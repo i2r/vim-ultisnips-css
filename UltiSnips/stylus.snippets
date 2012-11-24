@@ -1,0 +1,644 @@
+#Вспомогательные шаблоны
+snippet /
+/* ${1} */ /**/${0}
+endsnippet
+
+snippet !
+!important
+endsnippet
+
+snippet @
+@import url("${1}")${0}
+endsnippet
+
+snippet d
+border: 1px solid red !important
+endsnippet
+
+#Основные шаблоны
+snippet f
+font: ${1}${0}
+endsnippet
+
+snippet fa
+font: 100% Arial, sans-serif
+endsnippet
+
+snippet fv
+font: 80% Verdana, sans-serif
+endsnippet
+
+snippet ff
+font-family:${1}${0}
+endsnippet
+
+snippet ffa
+font-family: Arial, sans-serif
+endsnippet
+
+snippet fs
+font-size:${1}${0}
+endsnippet
+
+snippet fwb
+font-weight: bold
+endsnippet
+
+snippet fwn
+font-weight: normal
+endsnippet
+
+snippet fsi
+font-style: italic
+endsnippet
+
+snippet fsn
+font-style: normal
+endsnippet
+
+snippet fvn
+font-variant: normal
+endsnippet
+
+snippet fvs
+font-variant: small-caps
+endsnippet
+
+#Позиционирование
+snippet poa
+position: absolute
+endsnippet
+
+snippet pof
+position: fixed
+endsnippet
+
+snippet por
+position: relative
+endsnippet
+
+snippet pos
+position: static
+endsnippet
+
+snippet z
+z-index: ${1}${0}
+endsnippet
+
+snippet t
+top: ${1}${0}
+endsnippet
+
+snippet r
+right: ${1}${0}
+endsnippet
+
+snippet b
+bottom: ${1}${0}
+endsnippet
+
+snippet l
+left: ${1}${0}
+endsnippet
+
+#Отображение
+snippet db
+display: block
+endsnippet
+
+snippet di
+display: inline
+endsnippet
+
+snippet dn
+display: none
+endsnippet
+
+snippet dib
+display: inline-block
+endsnippet
+
+snippet dt
+display: table
+endsnippet
+
+snippet dtc
+display: table-cell
+endsnippet
+
+snippet dtr
+display: table-row
+endsnippet
+
+snippet dli
+display: list-item
+endsnippet
+
+snippet dit
+display: inline-table
+endsnippet
+
+snippet vh
+visibility: hidden
+endsnippet
+
+snippet vv
+visibility: visible
+endsnippet
+
+snippet fl
+float: left
+endsnippet
+
+snippet fr
+float: right
+endsnippet
+
+snippet fn
+float: none
+endsnippet
+
+snippet cl
+clear: left
+endsnippet
+
+snippet cr
+clear: right
+endsnippet
+
+snippet cn
+clear: none
+endsnippet
+
+snippet oa
+overflow: auto
+endsnippet
+
+snippet oh
+overflow: hidden
+endsnippet
+
+snippet oi
+overflow: inherit
+endsnippet
+
+snippet os
+overflow: scroll
+endsnippet
+
+snippet ov
+overflow: visible
+endsnippet
+
+snippet z1
+zoom: 1
+endsnippet
+
+#Размеры
+snippet bsb
+box-sizing: border-box
+endsnippet
+
+snippet bsc
+box-sizing: content-box
+endsnippet
+
+snippet w
+width: ${1}${0}
+endsnippet
+
+snippet w1
+width: 100%
+endsnippet
+
+snippet wa
+width: auto
+endsnippet
+
+snippet miw
+min-width: ${1}${0}
+endsnippet
+
+snippet maw
+max-width: ${1}${0}
+endsnippet
+
+snippet h
+height: ${1}${0}
+endsnippet
+
+snippet h1
+height: 100%
+endsnippet
+
+snippet mih
+min-height: ${1}${0}
+endsnippet
+
+snippet mah
+max-height: ${1}${0}
+endsnippet
+
+snippet m
+margin: ${1}${0}
+endsnippet
+
+snippet mt
+margin-top: ${1}${0}
+endsnippet
+
+snippet mr
+margin-right: ${1}${0}
+endsnippet
+
+snippet mb
+margin-bottom: ${1}${0}
+endsnippet
+
+snippet ml
+margin-left: ${1}${0}
+endsnippet
+
+snippet p
+padding: ${1}${0}
+endsnippet
+
+snippet pt
+padding-top: ${1}${0}
+endsnippet
+
+snippet pr
+padding-right: ${1}${0}
+endsnippet
+
+snippet pb
+padding-bottom: ${1}${0}
+endsnippet
+
+snippet pl
+padding-left: ${1}${0}
+endsnippet
+
+#Таблицы/Списки
+snippet tlf
+table-layout: fixed
+endsnippet
+
+snippet tla
+table-layout: auto
+endsnippet
+
+snippet ecs
+empty-cells: show
+endsnippet
+
+snippet ech
+empty-cells: hide
+endsnippet
+
+snippet bosp
+border-spacing: 0
+endsnippet
+
+snippet bcc
+border-collapse: collapse
+endsnippet
+
+snippet bcs
+border-collapse: separate
+endsnippet
+
+snippet ls
+list-style: ${1}${0}
+endsnippet
+
+snippet lsn
+list-style: none
+endsnippet
+
+#Текст
+snippet co
+content: ${1}${0}
+endsnippet
+
+snippet cor
+counter-reset: ${1}${0}
+endsnippet
+
+snippet coi
+counter-increment: ${1}${0}
+endsnippet
+
+snippet cu
+cursor: ${1}${0}
+endsnippet
+
+snippet cuh
+cursor: hand
+endsnippet
+
+snippet cup
+cursor: pointer
+endsnippet
+
+snippet cut
+cursor: text
+endsnippet
+
+snippet tal
+text-align: left
+endsnippet
+
+snippet tar
+text-align: right
+endsnippet
+
+snippet tac
+text-align: center
+endsnippet
+
+snippet taj
+text-align: justify
+endsnippet
+
+snippet vat
+vertical-align: top
+endsnippet
+
+snippet vab
+vertical-align: bottom
+endsnippet
+
+snippet vam
+vertical-align: middle
+endsnippet
+
+snippet lh
+line-height: ${1}${0}
+endsnippet
+
+snippet ws
+white-space: ${1}${0}
+endsnippet
+
+snippet wsn
+white-space: nowrap
+endsnippet
+
+snippet wsp
+white-space: pre
+endsnippet
+
+snippet td
+text-decoration: ${1}${0}
+endsnippet
+
+snippet tdn
+text-decoration: none
+endsnippet
+
+snippet tdu
+text-decoration: underline
+endsnippet
+
+snippet ti
+text-indent: ${1}${0}
+endsnippet
+
+snippet ttn
+text-transform: none
+endsnippet
+
+snippet ttu
+text-transform: uppercase
+endsnippet
+
+snippet ttl
+text-transform: lowercase
+endsnippet
+
+snippet ttc
+text-transform: capitalize
+endsnippet
+
+snippet les
+letter-spacing: ${1}${0}
+endsnippet
+
+snippet wos
+word-spacing: ${1}${0}
+endsnippet
+
+#Цвета/Эффекты
+snippet op
+opacity: ${1}${0}
+endsnippet
+
+snippet fo
+filter: alpha(opacity=${1:0.5})${0}
+endsnippet
+
+snippet c
+color: ${1}${0}
+endsnippet
+
+snippet bo
+border: 1px solid ${1}${0}
+endsnippet
+
+snippet boc
+border-color: ${1}${0}
+endsnippet
+
+snippet bos
+border-style: ${1}${0}
+endsnippet
+
+snippet bow
+border-width: ${1}${0}
+endsnippet
+
+snippet bot
+border-top: 1px solid ${1}${0}
+endsnippet
+
+snippet botc
+border-top-color: ${1}${0}
+endsnippet
+
+snippet bots
+border-top-style: ${1}${0}
+endsnippet
+
+snippet botw
+border-top-width: ${1}${0}
+endsnippet
+
+snippet bor
+border-right: 1px solid ${1}${0}
+endsnippet
+
+snippet borc
+border-right-color: ${1}${0}
+endsnippet
+
+snippet brs
+border-right-style: ${1}${0}
+endsnippet
+
+snippet borw
+border-right-width: ${1}${0}
+endsnippet
+
+snippet bob
+border-bottom: 1px solid ${1}${0}
+endsnippet
+
+snippet bobc
+border-bottom-color: ${1}${0}
+endsnippet
+
+snippet bobs
+border-bottom-style: ${1}${0}
+endsnippet
+
+snippet bobw
+border-bottom-width: ${1}${0}
+endsnippet
+
+snippet bol
+border-left: 1px solid ${1}${0}
+endsnippet
+
+snippet bolc
+border-left-color: ${1}${0}
+endsnippet
+
+snippet bols
+border-left-style: ${1}${0}
+endsnippet
+
+snippet bolw
+border-left-width: ${1}${0}
+endsnippet
+
+snippet borr
+border-radius: ${1:}${0}
+endsnippet
+
+snippet boxs
+box-shadow: ${1:}${0}
+endsnippet
+
+snippet o
+outline: 1px solid ${1}${0}
+endsnippet
+
+snippet ba
+background: ${1}${0}
+endsnippet
+
+snippet ban
+background: none
+endsnippet
+
+snippet bau
+background: ${1:red} url(//${2:yandex.st/}) no-repeat ${3:top left}${0}
+endsnippet
+
+snippet bag
+background: linear-gradient( rgba(${1:0}, ${2:0}, ${3:0}, ${4:0.5}), rgba(${5:255}, ${6:255}, ${7:255}, ${8:0.5}) )${0}
+endsnippet
+
+snippet bac
+background-color: ${1}${0}
+endsnippet
+
+snippet bact
+background-color: transparent
+endsnippet
+
+snippet bai
+background-image: url(//${1:yandex.st/})${0}
+endsnippet
+
+snippet baig
+background-image: linear-gradient( rgba(${1:0}, ${2:0}, ${3:0}, ${4:0.5}), rgba(${5:255}, ${6:255}, ${7:255}, ${8:0.5}) )${0}
+endsnippet
+
+snippet bain
+background-image: none
+endsnippet
+
+snippet bap
+background-position: ${1}${0}
+endsnippet
+
+snippet barn
+background-repeat: none
+endsnippet
+
+snippet barr
+background-repeat: repeat
+endsnippet
+
+snippet barx
+background-repeat: repeat-x
+endsnippet
+
+snippet bary
+background-repeat: repeat-y
+endsnippet
+
+snippet baaf
+background-attachment: fixed
+endsnippet
+
+snippet baas
+background-attachment: scroll
+endsnippet
+
+snippet fi
+filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://${1:yandex.st/})${0}
+endsnippet
+
+snippet fic
+filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://${1:yandex.st/},method=crop)${0}
+endsnippet
+
+snippet fis
+filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://${1:yandex.st/},method=scale)${0}
+endsnippet
+
+snippet ts
+text-shadow: ${1}${0}
+endsnippet
+
+snippet tr
+transition: ${1:all} ${2:.3}s ${3:ease}${0}
+endsnippet
+
+snippet trf
+transform: ${1:}${0}
+endsnippet
+
+snippet us
+-webkit-user-select: $1
+   -moz-user-select: $1
+    -ms-user-select: $1
+        user-select: ${1:text}${0}
+endsnippet
+
+snippet usn
+-webkit-user-select: none
+   -moz-user-select: -moz-none
+    -ms-user-select: none
+        user-select: none
+endsnippet
+
+snippet ust
+-webkit-user-select: text
+   -moz-user-select: text
+    -ms-user-select: text
+        user-select: text
+endsnippet
